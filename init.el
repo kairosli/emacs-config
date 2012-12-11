@@ -19,6 +19,9 @@
 (require 'dev-setting)
 (require 'smart-compile-setting)
 
+;; for perl dev->Emacs-PDE
+(load "pde-load")
+
 ;; highlight current line
 (global-hl-line-mode t)
 
